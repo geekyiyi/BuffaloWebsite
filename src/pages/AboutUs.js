@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/header";
 import { Features } from "../components/features";
 import { About } from "../components/about";
-import { Services } from "../components/Services";
+import { Services } from "../components/services";
 import { Gallery } from "../components/gallery";
 import { Contact } from "../components/contact";
 import { useState, useEffect } from "react";
@@ -18,7 +18,7 @@ const AboutUs = () => {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
+      {/* <Services data={landingPageData.Services} /> */}
       <Gallery />
       <Contact data={landingPageData.Contact} />
     </div>
