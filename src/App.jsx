@@ -7,7 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import Service from "./pages/Service"
-
+import ContactUs from './pages/ContactUs'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -24,6 +24,7 @@ const App = () => {
           <Route exact path="/" exact component={Home} />
           <Route exact path="/about-us" component={AboutUs} />
           <Route exact path="/service" component={Service} />
+          <Route exact path="/career" component={ContactUs} />
           
         </Switch>
         <Footer />

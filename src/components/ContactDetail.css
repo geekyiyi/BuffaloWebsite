@@ -1,0 +1,59 @@
+.contact-detail-container{
+    height: 200vh;
+}
+
+.contact-detail-container > img{
+    width: 100%;
+    height: 30%;
+    margin-top: -90px;
+}
+
+.contact-detial-block-container{
+    display: flex;
+}
+
+.contact-detial-try{
+    border: 1px solid black;
+    width: 25%;
+    height: 30%;
+    background: white;
+}
+
+.contact-detail-container > h3{
+    text-align: center;
+}
+
+.contact-detial-block{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.contact-detial-block>span{
+    background:url('../images/contactNumber.jpg');
+    background-size: 100%;
+    background-position-y: center;
+    height: 60px;
+    width: 85%;
+    color: white;
+    margin-left: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.contact-detail-item-container{
+        margin-top: -30px;
+        border: 2px solid black;
+        border-radius: 10px; 
+        z-index: 0;
+}
+
+.contact-detail-item{
+    margin-top: 50px;
+}
+
