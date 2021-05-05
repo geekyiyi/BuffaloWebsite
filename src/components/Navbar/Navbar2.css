@@ -1,24 +1,20 @@
 .navbar {
-  position: sticky;
-    /* position: absolute; */
+    position: sticky;
     background: transparent;
     height: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;/*x轴上的对齐方式*/
+    align-items: center;
     font-size: 1.2rem;
-    /*指定element在页面中的定位方式，sticky会让element跟着页面一起移动*/
     top: 0;
     z-index: 999;
 
   }
   
 .navbar.active{
-  /* background: linear-gradient(90deg, rgb(170, 170, 170) 0%,rgb(170, 170, 170) 100%);
-   */
-   /* position: sticky; */
-   /* background: rgba(0,0,0,0.5); */
-   background: rgba(0,0,0,0.5);
+   background: rgba(255,255,255,0.3);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
 }
 
   .navbar-container {
@@ -31,8 +27,8 @@
   }
   
   .navbar-logo {
-    width: 10%;
-    color: #fff;
+    width: 12%;
+    color: #330000;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -60,22 +56,25 @@
   }
   
   .nav-links {
-    color: #fff;
+    margin-top: 10px;
+    color: #330000;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-size: 20px;
   }
 
   
   .nav-links:hover {
+    color:#fff;
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+    color: #330000;
   }
   
   .nav-links-mobile {
@@ -88,33 +87,32 @@
 
   
   @media screen and (max-width: 960px) {
-    
     .NavbarItems {
       position: relative;
     }
   
     .nav-menu {
+      margin-top: -11px;
       display: flex;
       flex-direction: column;
       width: 100%;
       height: 90vh;
       position: absolute;
-      top: 70px;
+      top: 80px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
     }
   
+    /* 屏幕缩小以后点击出现的navbar框 */
     .nav-menu.active {
-      background:  rgba(0,0,0,0.5);
+      background: rgba(255,255,255,0.5);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
     }
-    .navbar-logo-container{
-      font-size: 1.8rem;
-    }
+  
     .nav-links {
       text-align: center;
       padding: 2rem;
@@ -123,15 +121,13 @@
     }
   
     .nav-links:hover {
-      width: 40px;
-      background-color: #fff;
-      color: #242424;
+      background-color: #330000;
+      color: #fff;
       border-radius: 0;
     }
   
     .navbar-logo {
-      /* position: relative; */
-      max-width:45px;
+      position: absolute;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
@@ -148,7 +144,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #330000;
       font-size: 2rem;
     }
   
@@ -157,19 +153,20 @@
       text-align: center;
       margin: 2rem auto;
       border-radius: 4px;
-      width: 70%;
+      width: 80%;
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      color: #330000;
       padding: 14px 20px;
-      border: 1px solid #fff;
+      border: 1px solid #330000;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
+      background: #330000;
+      color: #fff;
       transition: 250ms;
     }
   }
+  

@@ -6,7 +6,7 @@ import picture from '../images/green.jpg';
 import ShowBLock from "../components/ShowBLock";
 function Home(){
     return(
-        <div className="container">
+        <div>
             <div className ='home-hero-container'>
               <HeroSection bgImg = {picture} header = 'Buffalo' subheader = 'Leading 5G company' />
             </div>

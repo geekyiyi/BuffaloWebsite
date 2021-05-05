@@ -1,13 +1,20 @@
 import React from 'react'
 import './ShowBlock.css'
+import worker from '../images/green.jpg'
 
 function ShowBLock() {
     return (
         <div className = 'showblock-container'>
-            <h2 className ='showblock-header'>Intro</h2>  
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>          
+            <div className = 'showblock-text-container'>
+                <h2> SAFE WORK IS OUR KEY PRIORITY</h2>  
+                <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>          
+            </div>
+
+            <div className='showblock-pic-container'>
+                <img scr ={require('../images/worker.jpg')} alt = 'sidePost'/>
+            </div>
+            
         </div>
     )
 }
-
 export default ShowBLock

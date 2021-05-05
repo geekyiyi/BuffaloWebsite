@@ -1,11 +1,35 @@
 .showblock-container{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    display: inline;
+    display: flex;
 }
 
-.showblock-container > h2{
+.showblock-text-container{
+    height: 100%;
+    flex: 2;
+}
+
+.showblock-text-container > h2{
+    color: #1a8cff;
+    font-size: 35px;
+    text-align: center;
     position: relative;
-    width: 100%;
-    margin: 40px auto;
+    margin: 70px auto 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.showblock-text-container > p{
+    margin: 0 auto 50px;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    text-align: center;
+}
+
+.showblock-pic-container{
+    height: 100%;
+    width: 30%;
+    background: url('/src/images/download.jpg');
+
+    flex: 1;
+    background-attachment: fixed;
 }

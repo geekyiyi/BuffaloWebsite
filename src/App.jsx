@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar/Navbar"
+import Service from "./pages/Service"
+
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -15,12 +18,13 @@ const App = () => {
   return (
     <>
       <Router>
-      <Navigation />
-        {/* <Navbar /> */}
+      {/* <Navigation /> */}
+        <Navbar />
         <Switch>
           <Route exact path="/" exact component={Home} />
           <Route exact path="/about-us" component={AboutUs} />
-          {/* <Route exact path="/contact-us" component={ContactUs} /> */}
+          <Route exact path="/service" component={Service} />
+          
         </Switch>
         <Footer />
       </Router>

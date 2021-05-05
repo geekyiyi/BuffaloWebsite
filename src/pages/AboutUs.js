@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/header";
 import { Features } from "../components/features";
 import { About } from "../components/about";
-import { Services } from "../components/services";
+import { Services } from "../components/Services";
 import { Gallery } from "../components/gallery";
 import { Contact } from "../components/contact";
 import { useState, useEffect } from "react";

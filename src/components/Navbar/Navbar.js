@@ -3,6 +3,7 @@ import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 import './Navbar2.css';
 import logo from '../../images/logo.png';
+import { Dropdown } from 'rsuite';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -27,7 +28,7 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   const changeBackground = () =>{
-    if(window.scrollY >= 80){
+    if(window.scrollY >= 80 || window.innerWidth <= 960){
       setNavbar(true);
     }else{
       setNavbar(false);
@@ -45,11 +46,15 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>           
               <img className = 'logo-picture' src={logo} alt="Logo"/> 
           </Link>
-          
+
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+               Home
               </Link>
             </li>
 
@@ -60,14 +65,14 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <Link to='/what-we-do' className='nav-links' onClick={closeMobileMenu}>
-                What We Do
+              <Link to='/service' className='nav-links' onClick={closeMobileMenu}>
+                Service
               </Link>
             </li>
 
             <li className='nav-item'>
-              <Link to='/people-and-career' className='nav-links' onClick={closeMobileMenu}>
-                People and Career
+              <Link to='/career' className='nav-links' onClick={closeMobileMenu}>
+                Career
               </Link>
             </li>
 
