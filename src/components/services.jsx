@@ -9,7 +9,7 @@ export const Services = (props) => {
             dapibus leonec.
           </p>
         </div>
-        <div className='row'>
+        {/* <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
@@ -22,7 +22,7 @@ export const Services = (props) => {
                 </div>
               ))
             : 'loading'}
-        </div>
+        </div> */}
       </div>
     </div>
   )

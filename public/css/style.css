@@ -222,6 +222,27 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+
+/* SubHeader Section */
+#subheader {
+	max-height: 75vh;
+}
+.subIntro{
+	display: block;
+	width: 100%;
+	height: 50%;
+	padding: 0;
+	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.subintro-text {
+	padding: 200px 0;
+	text-align: center;
+}
 /* Features Section */
 #features {
 	padding: 100px 0;

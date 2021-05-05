@@ -3,7 +3,7 @@ import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 import './Navbar2.css';
 import logo from '../../images/logo.png';
-import { Dropdown } from 'rsuite';
+//import { Dropdown } from 'rsuite';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -65,8 +65,12 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
+            
               <Link to='/service' className='nav-links' onClick={closeMobileMenu}>
-                Service
+              <button className='dropbtn'>Services <i class="fa fa-caret-down"></i></button>
+              <div className="dropdown-content">
+                <Link className="link" to='/safetytools'>Safe&Tools</Link>
+              </div>
               </Link>
             </li>
 
