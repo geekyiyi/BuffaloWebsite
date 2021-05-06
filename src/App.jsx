@@ -15,7 +15,7 @@ import PropertyPlanning from './pages/Service_Pages/PropertyPlanning'
 import NetworkConstruction from './pages/Service_Pages/NetworkConstruction'
 import InBuildingSystems from './pages/Service_Pages/InBuildingSystems'
 import RadioFrequencySystems from './pages/Service_Pages/RadioFrequencySystems'
-
+import Career from './pages/Career'
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -31,7 +31,8 @@ const App = () => {
           <Route exact path="/" exact component={Home} />
           <Route exact path="/about-us" component={AboutUs} />
           {/* <Route exact path="/service" component={Service} /> */}
-          <Route exact path="/career" component={ContactUs} />
+          <Route exact path="/career" component={Career} />
+          {/* <Route exact path="/contactUs" component={ContactUs} /> */}
           
           <Route exact path="/safetytools" component={RadioFrequencySystems} />
         </Switch>
