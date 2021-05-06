@@ -16,6 +16,13 @@ import NetworkConstruction from './pages/Service_Pages/NetworkConstruction'
 import InBuildingSystems from './pages/Service_Pages/InBuildingSystems'
 import RadioFrequencySystems from './pages/Service_Pages/RadioFrequencySystems'
 import Career from './pages/Career'
+import OperationsAndMaintenance from './pages/Service_Pages/OperationsAndMaintenance'
+import FieldServices from './pages/Service_Pages/FieldServices'
+import EmeCompliance from './pages/Service_Pages/EmeCompliance'
+import AcmaLicensing from './pages/Service_Pages/AcmaLicensing'
+import Saed from './pages/Service_Pages/Saed'
+
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -33,7 +40,8 @@ const App = () => {
           {/* <Route exact path="/service" component={Service} /> */}
           <Route exact path="/career" component={Career} />
           <Route exact path="/contact-us" component={ContactUs} />    
-          <Route exact path="/safetytools" component={RadioFrequencySystems} />
+          <Route exact path="/safetytools" component={Saed} />
+          <Route exact path="/saed" component={Saed} />
         </Switch>
         <Footer />
       </Router>

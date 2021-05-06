@@ -66,12 +66,34 @@ function Navbar() {
 
             <li className='nav-item'>
             
-              <Link to='/safetytools' className='nav-links' onClick={closeMobileMenu}>
+              {/* <Link to='/safetytools' className='nav-links' onClick={closeMobileMenu}>
               <button className='dropbtn'>Services <i class="fa fa-caret-down"></i></button>
               <div className="dropdown-content">
                 <Link className="link" to='/safetytools'>Safe&Tools</Link>
               </div>
-              </Link>
+              </Link> */}
+
+              <div className='dropdown' onClick={closeMobileMenu}>
+                <button className='dropbtn'>Services <i class="fa fa-caret-down"></i></button>
+
+                <div className="dropdown-content">
+                  <p> 
+                    <Link className="link" to='/safetytools' style={{fontSize: "18px",color: "white",}} >
+                          Safe&Tools
+                    </Link>
+                  </p>
+
+                  <p> 
+                    <Link className="link" to='/saed' style={{fontSize: "18px",color: "white",}} >
+                        SAED
+                      </Link>
+                  </p>
+
+                  <p> 
+                    <Link className="link" to='/safetytools' style={{fontSize: "18px",color: "white",}}>
+                      Safe&Tools</Link></p>
+                </div>
+              </div>
             </li>
 
             <li className='nav-item'>
