@@ -1,5 +1,5 @@
 .contact-detail-container{
-    height: 200vh;
+    height: 350vh;
 }
 
 .contact-detail-container > img{
@@ -24,11 +24,23 @@
 }
 
 .contact-detial-block{
-    width: 70%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    margin-top: 40px;
+    margin-top: -40px;
+    background: white;
+    border: 1px solid;
+    height: 400px;
+}
+
+.contact-number{
+    margin-left: 17.5%;
+    margin-right: 2.5%;
+}
+
+.email{
+    margin-right: 17.5%;
+    margin-left: 2.5%;
 }
 
 .contact-detial-block>span{
@@ -46,14 +58,12 @@
     z-index: 1;
 }
 
-.contact-detail-item-container{
-        margin-top: -30px;
-        border: 2px solid black;
-        border-radius: 10px; 
-        z-index: 0;
-}
 
 .contact-detail-item{
     margin-top: 50px;
 }
 
+.contact-detial-address{
+    border: 1px solid;
+    margin:10%
+}

@@ -66,7 +66,7 @@ function Navbar() {
 
             <li className='nav-item'>
             
-              <Link to='/service' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/safetytools' className='nav-links' onClick={closeMobileMenu}>
               <button className='dropbtn'>Services <i class="fa fa-caret-down"></i></button>
               <div className="dropdown-content">
                 <Link className="link" to='/safetytools'>Safe&Tools</Link>

@@ -8,6 +8,13 @@ import Navbar from "./components/Navbar/Navbar"
 import Service from "./pages/Service"
 import ContactUs from './pages/ContactUs'
 import SafetyTools from "./pages/SafetyTools";
+import ProjectManagement from './pages/Service_Pages/ProjectManagement'
+import Design from './pages/Service_Pages/Design'
+import RadioCompliance from './pages/Service_Pages/RadioCompliance'
+import PropertyPlanning from './pages/Service_Pages/PropertyPlanning'
+import NetworkConstruction from './pages/Service_Pages/NetworkConstruction'
+import InBuildingSystems from './pages/Service_Pages/InBuildingSystems'
+import RadioFrequencySystems from './pages/Service_Pages/RadioFrequencySystems'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -26,7 +33,7 @@ const App = () => {
           {/* <Route exact path="/service" component={Service} /> */}
           <Route exact path="/career" component={ContactUs} />
           
-          <Route exact path="/safetytools" component={SafetyTools} />
+          <Route exact path="/safetytools" component={RadioFrequencySystems} />
         </Switch>
         <Footer />
       </Router>
