@@ -37,7 +37,7 @@ function Navbar() {
   }
 
   window.addEventListener('scroll',changeBackground)
-  
+    
   return (
     
       <nav className={navbar ? 'navbar active' : 'navbar'}>
@@ -82,13 +82,13 @@ function Navbar() {
 
 
             <li>
-              <Link to='/contact-us' className='nav-links-mobile' onClick={closeMobileMenu}>
+              <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
                 Contact Us
               </Link>
             </li>
           </ul>
 
-          {button && <Button buttonStyle='btn--outline'>CONTACT US</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>CONTACT US</Button>} */}
 
         </div>
       </nav>
