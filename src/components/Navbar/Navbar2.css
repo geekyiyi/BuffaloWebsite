@@ -125,7 +125,7 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: black;
+  background-color: gray;
 }
 
 @media screen and (max-width: 960px) {

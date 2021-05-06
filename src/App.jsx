@@ -40,8 +40,23 @@ const App = () => {
           {/* <Route exact path="/service" component={Service} /> */}
           <Route exact path="/career" component={Career} />
           <Route exact path="/contact-us" component={ContactUs} />    
-          <Route exact path="/safetytools" component={Saed} />
+          <Route exact path="/safetytools" component={SafetyTools} />
           <Route exact path="/saed" component={Saed} />
+          <Route exact path="/projectmanagement" component={ProjectManagement} />
+          <Route exact path="/design" component={Design} />
+          <Route exact path="/radioCompliance" component={RadioCompliance} />
+          <Route exact path="/propertyPlanning" component={PropertyPlanning} />
+          <Route exact path="/networkConstruction" component={NetworkConstruction} />
+          <Route exact path="/inBuildingSystems" component={InBuildingSystems} />
+          <Route exact path="/radioFrequencySystems" component={RadioFrequencySystems} />
+          <Route exact path="/operationsAndMaintenance" component={OperationsAndMaintenance} />
+          <Route exact path="/fieldServices" component={FieldServices} />
+          <Route exact path="/emeCompliance" component={EmeCompliance} />
+          <Route exact path="/acmaLicensing" component={AcmaLicensing} />
+
+
+
+          
         </Switch>
         <Footer />
       </Router>
