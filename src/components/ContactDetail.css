@@ -1,15 +1,53 @@
-.contact-detail-container{
+/* .contact-detail-container{
     height: 350vh;
-}
-
-.contact-detail-container > img{
-    width: 100%;
-    height: 30%;
-    margin-top: -90px;
-}
-
-.contact-detial-block-container{
+} */
+.contact-detail-titel-container{
     display: flex;
+}
+#contact-title{
+    top: 155px;
+    left: 45%;
+    position: relative;
+    font-size: 60px;
+    z-index: 1000;
+}
+
+.bgi{
+    width: 80%;
+    height: 50vh;
+    margin-top: -20px;
+    z-index: -2;
+}
+
+.contact-detail-icon{
+    position: relative;
+    text-align: center;
+}
+
+.spot{
+    height: 40%;
+    z-index: 0;
+    /* margin-left: 1; */
+    margin-top: -9%;
+}
+
+
+i{
+    color: #fff;
+    z-index: 2;
+    margin-left: -19%;
+}
+
+#home-icon{
+    margin-top: -28%;
+    z-index: 2;
+    padding-left: 18%;
+}
+
+.home-spot{
+    height: 40%;
+    margin-left: 3%;
+    z-index: 0;
 }
 
 .contact-detial-try{
@@ -19,31 +57,64 @@
     background: white;
 }
 
-.contact-detail-container > h3{
+.contact-detail-container > h1{
     text-align: center;
 }
 
-.contact-detial-block{
-    width: 30%;
+
+.contact-detial-block-container{
+    top: -120px;
+    position: relative;
     display: flex;
-    flex-direction: column;
-    margin-top: -40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contact-detial-wrapper{
+    top: -60;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: content-box;
+}
+
+.contact-detial-block{
+    margin: 0 1.5%;
+    padding: 2% .5% ;
+    width: 21%;
+    /* display: flex;
+    flex-direction: column; */
     background: white;
-    border: 1px solid;
+    border: 1px solid #d1e0e0;
     height: 400px;
 }
 
-.contact-number{
-    margin-left: 17.5%;
-    margin-right: 2.5%;
+.contact-label{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 
 .email{
-    margin-right: 17.5%;
-    margin-left: 2.5%;
+    margin-left: 27%;
 }
 
-.contact-detial-block>span{
+.contact-info{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(120, 189, 216);
+}
+
+.fa-phone-alt{
+    width: 10%;
+}
+
+.contact-detail-map{
+    width: 70%;
+}
+
+/* .contact-detial-block>span{
     background:url('../images/contactNumber.jpg');
     background-size: 100%;
     background-position-y: center;
@@ -56,14 +127,30 @@
     backdrop-filter: blur(10px);
    -webkit-backdrop-filter: blur(10px);
     z-index: 1;
-}
+} */
 
 
 .contact-detail-item{
+
     margin-top: 50px;
 }
 
+.contact-detail-address-info{
+    width: 30%;
+    padding: 10% 0;
+}
+
+/* .contact-detail-item>p{
+    font-size: medium;
+    font-weight: 400;
+} */
+
 .contact-detial-address{
+    width: 50%;
+    display: flex;
     border: 1px solid;
-    margin:10%
+    margin: 3% auto;
+    border: 1px solid #b3bbbbcb;
+    height: 600px;
+    text-align: center;
 }
