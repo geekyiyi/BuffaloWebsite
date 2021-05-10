@@ -8,7 +8,7 @@ function Home(){
     return(
         <div>
             <div className ='home-hero-container'>
-              <HeroSection bgImg = {picture} header = 'Buffalo' subheader = 'Leading 5G company' />
+              <HeroSection bgImg = {picture} header = 'Buffalo Innovation' subheader = 'Leading 5G company' />
             </div>
             <ShowBLock/>
             <Try/>
