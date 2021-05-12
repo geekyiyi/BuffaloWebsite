@@ -1,35 +1,35 @@
 import React from 'react'
 import './ContactDetail.css'
 import backgroundImg from '../images/contact.jpg'
+import home from '../images/home.PNG'
+import mail from '../images/mail.PNG'
+import phone from '../images/phone.PNG'
 
 function ContactDetail() {
     return (
         <div className ='contact-detail-container'>
-            <div className='contact-detail-titel-container'>
+            {/* hero section */}
+            <div className='contact-detail-title-container'>
                 <span id='contact-title'>Contact Us</span>
                 <img className ="bgi" src='https://storage-asset.msi.com/template/images/contact_us/kv-contact-us.jpg' alt ='background image'></img>
             </div>
             
+            
             <div className ="contact-detial-wrapper">
                 <div className = 'contact-detial-block-container'>        
-
-                    <div className ='contact-detial-block email'>
-                        <div className = 'contact-detail-icon'>                 
-                            <img className="spot" src='//2.ss.faisys.com/image/materialLib/other/500000283.png?v=201712181730'></img>
-                            <i class="fas fa-envelope fa-5x"/>
-                        </div>
+                    {/* email section */}
+                    <div className ='contact-detial-block email'>                
+                        <img className="spot" src={mail}></img>
                         <p className ="contact-label">Contact Customer Support</p>
+
                         <div className="contact-detail-item">
                             <p>E-mail :</p>
-                            <p className='contact-info'>info@brightentechs.com.au</p>
+                            <p className='contact-info'>info@buffalo-innovation.com.au</p>
                         </div>
                     </div>
-
-                    <div className ='contact-detial-block contact-number'>
-                    <div className = 'contact-detail-icon'>                 
-                        <img className="spot" src='//2.ss.faisys.com/image/materialLib/other/500000282.png?v=201712181730'></img>
-                        <i class="fas fa-phone-alt fa-5x"/>
-                        </div>
+                    {/* phone section */}
+                    <div className ='contact-detial-block contact-number'>               
+                        <img className="spot" src={phone}></img>   
                         <p className ="contact-label">want to talk to our team member?</p>
 
                         <div className ='contact-detail-item-container'>
@@ -51,14 +51,7 @@ function ContactDetail() {
                 </div>
 
                 <div className ='contact-detail-address-info'>
-                    <div className = 'contact-detail-icon'>                 
-                        <img  className="home-spot" src='//2.ss.faisys.com/image/materialLib/other/500000281.png?v=201712181730'></img>
-                        <div id = 'home-icon'>
-                            <i className="fas fa-home fa-5x"/>
-                        </div>
-                    </div>
-
-
+                    <img  className="home-spot" src={home}></img>
                     <div className='contact-detail-item'>
                         <p className ="contact-label">Connect with our offices</p>
                         <p>Address:</p>

@@ -14,7 +14,7 @@ function Try(props) {
             <div data-aos= "fade-left" className = 'InfoCard-container'>
                 <InfoCard  
                 path = "/about-us" 
-                header = "Brightentechs is a trusted partner of Australia's leading telecommunications and ICT network providers " 
+                header = "Buffalo Innovation is a trusted partner of Australia's leading telecommunications and ICT network providers " 
                 text = "We began NBN FTTB(Fiber To TheBuilding) projects since 2015, helping nearly hundred of residents/commercials daily in connecting to NBN now. We began NBN HFC(Hybrid Fiber Coax)   since 2017 where partnership set up over hundreds community broadband fundamental constructions."
                 />
             </div>
