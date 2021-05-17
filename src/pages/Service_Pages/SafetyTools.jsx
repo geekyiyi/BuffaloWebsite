@@ -1,9 +1,9 @@
 import React from "react";
-import { SubHeader } from "../components/SubHeader";
-import { ServiceContent } from "../components/ServiceContent";
+import { SubHeader } from "../../components/SubHeader";
+import { ServiceContent } from "../../components/ServiceContent";
 import { useState, useEffect } from "react";
-import JsonData from "../data/data.json";
-import about from '../images/about.jpg'
+import JsonData from "../../data/data.json";
+import about from '../../images/about.jpg'
 
 const SafetyTools = () => {
     const [landingPageData, setLandingPageData] = useState({});

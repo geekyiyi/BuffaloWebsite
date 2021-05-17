@@ -1,7 +1,8 @@
 .about-info-container{
+    margin: 60px 0;
     display: block;
     overflow: auto;
-    width: 600px;
+    width: 45rem;
     color: white;
     font-family: "Knockout-HTF90-UltmtWelterwt", Conduit,Sans-serif;
     border:2px solid white;
@@ -9,28 +10,26 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about-info-container > h1{
+.about-info-container h1{
     width:90%;
     position: relative;
-    top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 50px;
+    margin: 45px auto 0;
+    font-size: 3rem;
     font-weight: normal;
     text-align: left;
    
 }
 
-.about-info-container > p{
-    /* font-size: 50px; */
+.about-info-container p{
+    font-size: 1.5rem;
     width: 90%;
     font-weight: normal;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
-    margin: 60px auto 15px;
+    margin: 40px auto 20px;
 }
 
 .about-btns{
     width: 90%;
-    margin: 5px auto 35px;
+    margin: 5px auto 55px;
 }

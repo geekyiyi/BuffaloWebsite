@@ -1,32 +1,32 @@
 .showblock-container{
-    height: 70vh;
     width: 100%;
     display: flex;
 }
 
 .showblock-text-container{
-    height: 100%;
     flex: 2;
 }
 
 .showblock-text-container > h2{
     color: #1a8cff;
-    font-size: 35px;
+    font-size: 3.2rem;
     text-align: center;
     position: relative;
-    margin: 70px auto 40px;
+    margin: 120px auto 64px;
     font-family: 'Roboto', sans-serif;
+    width: 70%;
 }
 
 .showblock-text-container > p{
-    margin: 0 auto 50px;
+    margin: 0 auto 65px;
     font-family: 'Roboto', sans-serif;
-    width: 80%;
-    text-align: center;
+    width: 75%;
+    text-align: justify;
+    font-size: 1.7rem;
+    
 }
 
 .showblock-pic-container{
-    height: 100%;
     width: 30%;
     background: url('/src/images/download.jpg');
     flex: 1;

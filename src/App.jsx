@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import Service from "./pages/Service"
 import ContactUs from './pages/ContactUs'
-import SafetyTools from "./pages/SafetyTools";
+import SafetyTools from "./pages/Service_Pages/SafetyTools";
 import ProjectManagement from './pages/Service_Pages/ProjectManagement'
 import Design from './pages/Service_Pages/Design'
 import RadioCompliance from './pages/Service_Pages/RadioCompliance'
@@ -52,11 +52,7 @@ const App = () => {
           <Route exact path="/operationsAndMaintenance" component={OperationsAndMaintenance} />
           <Route exact path="/fieldServices" component={FieldServices} />
           <Route exact path="/emeCompliance" component={EmeCompliance} />
-          <Route exact path="/acmaLicensing" component={AcmaLicensing} />
-
-
-
-          
+          <Route exact path="/acmaLicensing" component={AcmaLicensing} /> 
         </Switch>
         <Footer />
       </Router>

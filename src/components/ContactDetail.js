@@ -10,8 +10,9 @@ function ContactDetail() {
         <div className ='contact-detail-container'>
             {/* hero section */}
             <div className='contact-detail-title-container'>
-                <span id='contact-title'>Contact Us</span>
-                <img className ="bgi" src='https://storage-asset.msi.com/template/images/contact_us/kv-contact-us.jpg' alt ='background image'></img>
+                    <h1 id='contact-title'>Contact Us</h1>
+                
+                {/* <img className ="bgi" src='https://storage-asset.msi.com/template/images/contact_us/kv-contact-us.jpg' alt ='background image'></img> */}
             </div>
             
             

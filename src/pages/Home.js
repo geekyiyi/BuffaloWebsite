@@ -7,9 +7,7 @@ import ShowBLock from "../components/ShowBLock";
 function Home(){
     return(
         <div>
-            <div className ='home-hero-container'>
-              <HeroSection bgImg = {picture} header = 'Buffalo Innovation' subheader = 'Leading 5G company' />
-            </div>
+            <HeroSection bgImg = {picture} header = 'Buffalo Innovation' subheader = 'Leading 5G company' />
             <ShowBLock/>
             <Try/>
         </div>
