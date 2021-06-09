@@ -1,34 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=PT+Sans+Narrow&family=Pathway+Gothic+One&family=Patrick+Hand&display=swap');
+
 .showblock-container{
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .showblock-text-container{
-    flex: 2;
+    margin: 70px 0 10px;
 }
 
-.showblock-text-container > h2{
-    color: #1a8cff;
-    font-size: 3.2rem;
+
+.showblock-text-container h2{
+    color: SteelBlue;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.showblock-descrip{
+    max-width: 720px;
+    /* padding: 0 300px 90px; */
     text-align: center;
+    margin-bottom: 70px;
+}
+
+.showblock-card-container{
+    /* width: 1100px; */
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 65px;
+    margin: 0 auto 80px;
+}
+
+.showblock-card-container .showblock-card{
     position: relative;
-    margin: 120px auto 64px;
-    font-family: 'Roboto', sans-serif;
-    width: 70%;
+    width: 240px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    perspective: 1000px;
 }
 
-.showblock-text-container > p{
-    margin: 0 auto 65px;
-    font-family: 'Roboto', sans-serif;
-    width: 75%;
-    text-align: justify;
-    font-size: 1.7rem;
-    
+/* .showblock-card-container .showblock-card:hover{
+    box-shadow: 0 0px 50px rgba(0,0,0,.2);
+} */
+
+.showblock-card-container .showblock-card .face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.showblock-pic-container{
-    width: 30%;
-    background: url('/src/images/download.jpg');
-    flex: 1;
-    background-attachment: fixed;
+.showblock-card-container .showblock-card .face1{
+    padding: 50px 0 0;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    opacity: 0;
+    background: SteelBlue;
+    transform: translateY(110px) rotateX(-90deg);
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 10%;
 }
+
+.showblock-container .showblock-card:hover .face.face1{
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+
+.showblock-container .showblock-card:hover .face.face2{
+    opacity: 0;
+    transform: translateY(-110px) rotateX(0deg);
+}
+
+
+.showblock-card-container .showblock-card .face1 p{
+    display: block;
+    box-sizing: border-box;
+    padding: 24px 11px;
+    width: 100%;
+    height: 145px;
+    text-align: -webkit-center;
+    font-size: 4px;
+}
+
+.showblock-card-container .showblock-card .face2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    transition: all 0.5s ease;
+
+}
+.showblock-container .showblock-card .face.face2 i{
+    font-size: 50px;
+    margin:30px 0;
+}
+
+.showblock-container .showblock-card .face1 span,
+.showblock-card-container .showblock-card .face.face2 span{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.showblock-container .showblock-card .face.face2 i,
+.showblock-card-container .showblock-card .face.face2 span{
+    background: SteelBlue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.showblock-container .showblock-card:hover .face.face2 i{
+    display: none;
+}
+
+
+.showblock-container .showblock-card:hover .face2 span{
+    color: #000;
+}
+

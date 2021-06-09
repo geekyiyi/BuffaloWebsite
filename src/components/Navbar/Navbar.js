@@ -77,9 +77,6 @@ function Navbar() {
                 <button className='dropbtn'>Services <i class="fa fa-caret-down"></i></button>
 
                 <div className="dropdown-content">               
-                    <Link className="link" to='/safetytools' style={{fontSize: "18px",color: "white",}} >
-                          Safe&Tools
-                    </Link>
 
                     <Link className="link" to='/projectManagement' style={{fontSize: "18px",color: "white",}} >
                     Project Management
@@ -90,42 +87,6 @@ function Navbar() {
 
                     <Link className="link" to='/radioCompliance' style={{fontSize: "18px",color: "white",}} >
                     Radio Compliance
-                    </Link>
-   
-                    <Link className="link" to='/propertyPlanning' style={{fontSize: "18px",color: "white",}} >
-                    Property/Planning
-                    </Link>
-  
-                    <Link className="link" to='/networkConstruction' style={{fontSize: "18px",color: "white",}} >
-                    Network Construction
-                    </Link>
- 
-                    <Link className="link" to='/inBuildingSystems' style={{fontSize: "18px",color: "white",}} >
-                    In-Building Systems
-                    </Link>
-  
-                    <Link className="link" to='/radioFrequencySystems' style={{fontSize: "18px",color: "white",}} >
-                    Radio Frequency Systems
-                    </Link>
- 
-                    <Link className="link" to='/operationsAndMaintenance' style={{fontSize: "18px",color: "white",}} >
-                    Operations And Maintenance
-                    </Link>
- 
-                    <Link className="link" to='/fieldServices' style={{fontSize: "18px",color: "white",}} >
-                    Field Services
-                    </Link>
- 
-                    <Link className="link" to='/emeCompliance' style={{fontSize: "18px",color: "white",}} >
-                    EME Compliance
-                    </Link>
- 
-                    <Link className="link" to='/acmaLicensing' style={{fontSize: "18px",color: "white",}} >
-                    ACMA Licensing
-                    </Link>
- 
-                    <Link className="link" to='/saed' style={{fontSize: "18px",color: "white",}} >
-                        SAED
                     </Link>
  
                 </div>
