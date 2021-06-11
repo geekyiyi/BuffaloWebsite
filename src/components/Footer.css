@@ -1,5 +1,5 @@
 .footer-container {
-    background:url('../images/footer-img4.jpg') center center/cover no-repeat;
+    background:#263F5B;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -17,6 +17,10 @@
 
   .footer-link-items{
     width: 200px;
+  }
+
+  .footer-link-items .footer-link-title h3{
+    color: #F1DBC4;
   }
 
   .textwidget{

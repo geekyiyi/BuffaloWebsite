@@ -78,14 +78,14 @@ function Navbar() {
 
                 <div className="dropdown-content">               
 
-                    <Link className="link" to='/projectManagement' style={{fontSize: "18px",color: "white",}} >
+                    <Link className="link" to='/projectManagement' style={{fontSize: "18px"}} >
                     Project Management
                     </Link>
-                    <Link className="link" to='/design' style={{fontSize: "18px",color: "white",}} >
+                    <Link className="link" to='/design' style={{fontSize: "18px"}} >
                     Design
                     </Link>
 
-                    <Link className="link" to='/radioCompliance' style={{fontSize: "18px",color: "white",}} >
+                    <Link className="link" to='/radioCompliance' style={{fontSize: "18px"}} >
                     Radio Compliance
                     </Link>
  

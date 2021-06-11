@@ -10,7 +10,7 @@ function Footer() {
             <div className="footer-link-container">
                 <div className='footer-link-items'>
 
-                            <header><h3>Menu</h3></header>
+                            <header className="footer-link-title"><h3>Menu</h3></header>
 
                             <ul className='footer-menu'>
                                 <li className = 'footer-item'><Link to='/' className = 'footer-links'>Home</Link></li>                          
@@ -23,7 +23,7 @@ function Footer() {
 
                 <div className='footer-link-items'>
 
-                            <header><h3>Quick Link</h3></header>
+                            <header className="footer-link-title"><h3>Quick Link</h3></header>
 
                             <ul className='footer-menu'>
                                 <li className = 'footer-item'><Link to='/' className = 'footer-links'>Home</Link></li>                          
@@ -34,7 +34,7 @@ function Footer() {
 
                 <div className='footer-link-items'>
 
-                            <header><h3>Contact</h3></header>
+                            <header className="footer-link-title"><h3>Contact</h3></header>
 
                             <div class="textwidget">
                                 <p>
