@@ -15,9 +15,8 @@ function Footer() {
                             <ul className='footer-menu'>
                                 <li className = 'footer-item'><Link to='/' className = 'footer-links'>Home</Link></li>                          
                                 <li className = 'footer-item'><Link to='/about-us' className = 'footer-links'>About Us</Link></li>
-                                <li className = 'footer-item'><Link to='/'className = 'footer-links'>Service</Link></li>
-                                <li className = 'footer-item'><Link to='/'className = 'footer-links'>People and Career</Link></li>                         
-                                <li className = 'footer-item'><Link to='/'className = 'footer-links'>Contact Us</Link></li>
+                                <li className = 'footer-item'><Link to='/career'className = 'footer-links'> Career</Link></li>                         
+                                <li className = 'footer-item'><Link to='/contact-us'className = 'footer-links'>Contact Us</Link></li>
                             </ul>       
                 </div>
 
@@ -26,9 +25,9 @@ function Footer() {
                             <header className="footer-link-title"><h3>Quick Link</h3></header>
 
                             <ul className='footer-menu'>
-                                <li className = 'footer-item'><Link to='/' className = 'footer-links'>Home</Link></li>                          
-                                <li className = 'footer-item'><Link to='/about-us' className = 'footer-links'>About Us</Link></li>
-                                <li className = 'footer-item'><Link to='/'className = 'footer-links'>Service</Link></li>
+                                <li className = 'footer-item'><Link to='/projectManagement' className = 'footer-links'>Project Management</Link></li>                          
+                                <li className = 'footer-item'><Link to='/design' className = 'footer-links'>Design</Link></li>
+                                <li className = 'footer-item'><Link to='/radioCompliance'className = 'footer-links'>Radio Compliance</Link></li>
                             </ul>       
                 </div>
 

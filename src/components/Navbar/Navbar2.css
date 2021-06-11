@@ -55,8 +55,8 @@
 }
 
 .nav-links {
-  font-weight: 500;
-  color: #530202;
+  font-weight: 600;
+  color: #1c0797;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -66,14 +66,14 @@
 }
 
 .nav-links:hover {
-  color: rgb(187, 95, 95);
+  color: rgb(103, 125, 224);
   /* -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3); */
-  border-bottom: 4px solid rgb(187, 95, 95);
+  border-bottom: 4px solid rgb(103, 125, 224);
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #530202;
+  color: #1c0797;
 }
 
 .nav-links-mobile {
@@ -85,7 +85,7 @@
 }
 
 .dropdown {
-  color: #530202;
+  color: #1c0797;
   display: flex;
   /* align-items: center; */
   text-decoration: none;
@@ -104,8 +104,8 @@
 }
 
 .dropbtn:hover {
-  color: rgb(187, 95, 95);
-  border-bottom: 4px solid rgb(187, 95, 95);
+  color: rgb(103, 125, 224);
+  border-bottom: 4px solid rgb(103, 125, 224);
   transition: all 0.2s ease-out;
 }
 

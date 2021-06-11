@@ -11,11 +11,11 @@
 }
 
 .about-info-container h1{
-    width:90%;
+    width: 90%;
     position: relative;
     margin: 45px auto 0;
-    font-size: 3rem;
-    font-weight: normal;
+    font-size: 4rem;
+    font-weight: 700;
     text-align: left;
    
 }
